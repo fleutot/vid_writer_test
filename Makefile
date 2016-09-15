@@ -13,6 +13,3 @@ $(TARGETS): % : %.o
 
 clean:
 	$(RM) *.o $(TARGETS)
-
-test: $(TARGETS)
-	$(MAKE) -Ctest test
