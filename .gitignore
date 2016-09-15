@@ -1,0 +1,8 @@
+*.o
+TAGS
+test_no_thread
+
+# emacs backup files
+*~
+*#
+.#*
